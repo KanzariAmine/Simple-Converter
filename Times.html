@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <title>Times Convert</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary mb-3">
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Weigth <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="Times.html">Times</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Temperature.html">Temperature</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="Speed.html">Speed</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+     </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="display-4 text-center mb-5">Tiems Convert</h1>
+          <div class="input-group">
+              <input id ="lbsInput" type="number" class="form-control form-control-lg mr-2 " placeholder="Enter Value...">
+            <select class="custom-select custom-select-lg mr-2" id="inputGroupSelect04" aria-label="Example     select with button addon">
+                <option selected >Choose Unit ...</option>
+              <option value="millisecond">Millisecond</option>
+              <option value="second">Second</option>
+              <option value="minut">Minut</option>
+              <option value="hours">Hours</option>
+            </select>
+            <div class="input-group-append">
+              <button id ="convertButton" class="btn btn-outline-light" type="button">Convert</button>
+            </div>    
+          </div>
+        <div id="output">
+      </div>
+    </div>
+    </div>
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="./js/main-timer.js"></script>
+</body>
+</html>
