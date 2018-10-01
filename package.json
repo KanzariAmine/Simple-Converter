@@ -1,0 +1,16 @@
+{
+  "name": "Simple-Weight-Converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://KanzariAmine.github.io/Simple__Converter",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
