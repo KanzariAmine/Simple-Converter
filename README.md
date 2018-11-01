@@ -1,5 +1,6 @@
 # Simple Converter
-> Technology used in this app:
+
+# Technology used in this app:
 
   >vanilla javascript.
   
